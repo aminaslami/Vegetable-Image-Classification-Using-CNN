@@ -2,11 +2,13 @@
 
 Classifying vegetable images using a Convolutional Neural Network (CNN) involves building a model that can accurately identify different types of vegetables from input images. Here's a step-by-step guide on how you can implement this:
 
-Data Collection and Preprocessing:
+### Data Collection and Preprocessing:
 
-Collect a dataset of vegetable images. You can search for open datasets online or create your own by taking pictures of various vegetables.
-Organize the images into different folders, each representing a different class of vegetables.
-Preprocess the images by resizing them to a uniform size, converting them to a suitable format (e.g., RGB), and normalizing pixel values.
+  Collect a dataset of vegetable images. You can search for open datasets online or create your own by taking pictures of various vegetables.
+  
+  Organize the images into different folders, each representing a different class of vegetables.
+
+  Preprocess the images by resizing them to a uniform size, converting them to a suitable format (e.g., RGB), and normalizing pixel values.
 Building the CNN Model:
 
 Initialize a CNN model using deep learning frameworks like TensorFlow or Keras.
